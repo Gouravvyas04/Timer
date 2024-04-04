@@ -1,0 +1,87 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    width: 100vw;
+    height: 100vh;
+    background-color: rgb(189, 189, 245);
+}
+
+.timer{
+    width:300px;
+    height: 200px;
+    background-color: rgb(3, 12, 94);;
+    margin: auto;
+    border-radius: 20px;
+    padding-block: 20px;
+    margin-block-start: 200px;
+}
+
+h1{
+    color: white;
+    text-align: center;
+    padding-top:60px;
+    font-size: 40px;
+}
+
+.btns{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center; 
+    font-size: 18px;
+    font-weight: 600;
+    flex-wrap: wrap;
+    padding-block: 120px;
+}
+
+
+.start{
+    background-color: rgb(3, 12, 94);
+    width: 70px;
+    height: 40px;
+    border: none;
+    border-radius: 40px;
+    color: white;
+    font-size: 15px;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.start:hover{
+    background-color: rgb(2, 18, 159);
+}
+
+.stop{
+    background-color: rgb(3, 12, 94);
+        width: 70px;
+        height: 40px;
+        border: none;
+        border-radius: 40px;
+        color: white;
+        font-size: 15px;
+        font-weight: 500;
+        cursor: pointer;
+}
+
+.stop:hover{
+    background-color: rgb(2, 18, 159);
+}
+
+.restart{
+    background-color: rgb(3, 12, 94);
+        width: 70px;
+        height: 40px;
+        border: none;
+        border-radius: 40px;
+        color: white;
+        font-size: 15px;
+        font-weight: 500;
+        cursor: pointer;
+}
+
+.restart:hover{
+    background-color: rgb(2, 18, 159);
+}
